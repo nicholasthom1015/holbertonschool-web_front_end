@@ -1,11 +1,3 @@
 html {
     scroll-behavior: smooth;
   }
-
-  body {
-    height: 2000px;
-  }
-  
-  section {
-    height: 500px;
-  }
