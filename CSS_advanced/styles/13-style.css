@@ -1,0 +1,26 @@
+a[href]:not([href=""]) {
+    /* Target anchor elements containing a hyperlink */
+  }
+  
+  a[href]:not([href=""]):visited {
+    /* Target visited state for the link */
+  }
+  
+  a[href]:not([href=""]):visited {
+    /* Target visited state for the link */
+    font-style: italic;
+  }
+  
+  a[href]:not([href=""]):hover {
+    /* Target hover state for the link */
+    text-decoration: underline;
+  }
+  
+  a[href]:not([href=""]):active {
+    /* Target active state for the link */
+  }
+  
+  body {
+    /* Set the background color with the variable color-light-grey */
+    background-color: var(--color-light-grey);
+  }

@@ -1,0 +1,44 @@
+:root {
+    /* Custom property */
+    --section-tagline-margin: 0;
+  }
+  
+  .section-tagline {
+    /* Set margins for the section-tagline class to section-tagline-margin */
+    margin: var(--section-tagline-margin);
+  }
+  
+  ul.row {
+    /* Set margins and padding for all ul with the class row */
+    margin: 0;
+    padding: 0;
+    /* Reset default list styles */
+    list-style: none;
+  }
+  
+  .col-1-3 {
+    /* Set width, float, and padding for the col-1-3 class */
+    width: 33.33%;
+    float: left;
+    padding: calc(var(--root-element) / 2);
+  }
+  
+  .col-1-2 {
+    /* Set width, float, and padding for the col-1-2 class */
+    width: 50%;
+    float: left;
+    padding: calc(var(--root-element) / 2);
+  }
+  
+  .footer-copyright {
+    /* No margins */
+    margin: 0;
+    /* Set font size and foreground color */
+    font-size: font-size-small;
+    color: text-color;
+  }
+  
+  footer ul {
+    /* Align text to the right for ul in the footer class */
+    text-align: right;
+  }

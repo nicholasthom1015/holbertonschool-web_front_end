@@ -1,0 +1,9 @@
+* {
+    /* Universal box sizing rule */
+    box-sizing: border-box;
+  }
+  
+  /* Rest of your CSS styles */
+  html {
+    /* Other styling for HTML */
+  }
