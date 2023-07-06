@@ -1,0 +1,7 @@
+[data-section-theme="dark"] {
+    /* Redefine custom properties */
+    --text-color: color-white;
+    --section-title-color: color-white;
+    /* Set background */
+    background: var(--color-black);
+  }
